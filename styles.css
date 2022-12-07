@@ -1,8 +1,8 @@
 
-@media all and (max-width: 1024px) {...}
+/* @media all and (max-width: 1024px) {...}
 @media all and (min-width: 800px) and (max-width: 1024px) {...}
 @media not screen and (color) {...}
-@media only screen and (orientation: portrait) {...}
+@media only screen and (orientation: portrait) {...} */
 
 @media all and (max-width: 420px) {
   section, aside {
