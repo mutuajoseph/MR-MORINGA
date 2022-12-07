@@ -1,0 +1,77 @@
+
+@media all and (max-width: 1024px) {...}
+@media all and (min-width: 800px) and (max-width: 1024px) {...}
+@media not screen and (color) {...}
+@media only screen and (orientation: portrait) {...}
+
+@media all and (max-width: 420px) {
+  section, aside {
+    float: none;
+    width: auto;
+  }
+}
+
+*{
+    text-align: center;
+
+}
+#heading{
+    color: #fff;
+    font-stretch:condensed;
+    font-weight: 400;
+    font-family: cursive;
+    font-size: 150%;
+    
+    
+}
+    
+    
+
+input{
+     background: #fff;
+    padding: 1%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height:relative ;
+    border-radius: 25px;
+    border: solid #b7b7a4;
+  
+  text-align: center;
+}
+ul{
+    font-size: 160%;
+    list-style-type:disc;
+    list-style-position: inside;
+    text-align: left;
+    color:darkgrey;
+   
+    
+}
+body{
+        background-image: url(image.jpeg);
+        width: 100%;
+        height: auto;
+        
+        border: 1px solid black;
+}
+#footer{
+    
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+   font-size: 130%;
+    color: white;
+    text-align: center;
+}
+.tasks{
+    top: 68%;
+    left: 46%;
+    margin-left: 0%;
+    position:static;
+}
+#uncompleted-tasks{
+    padding-left: 50%;
+}
+#tasks-completed-{
+    padding-right: 50%;
+}

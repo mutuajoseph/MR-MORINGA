@@ -11,7 +11,7 @@
 Meta
 ----
 Author:
-   * **Joseph Wambua** - *Initial work* - [mutuajoseph](https://github.com/mutuajoseph)
+   * **Shadrack Mungai** - *Initial work* - [mungai shadrack](https://github.com/mutuajoseph)
 
 
 Status:
@@ -31,8 +31,8 @@ Usage
 ## License
 This project is licensed under the MIT License
 
-Documentation
--------------
+Documentation - plece a link 
+------------- 
 You can see the documentation over at **Read the Docs**
 
 Resources

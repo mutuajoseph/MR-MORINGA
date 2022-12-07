@@ -1,15 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=chrome" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <div>
-        <h2>Lets start building the a simple todo application</h2>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="heading">
+      <h1>My To-do List</h1>
     </div>
-</body>
-<script src="./index.js"></script>
+    <div class="input">
+      <div class="form-floating mb-3">
+        <input
+          type="text"
+          class="task-input"
+          id="floatingInput"
+          placeholder="Tasks To-do"
+        />
+      </div>
+<div class="tasks">
+    <div id="tasks-completed">
+ 
+    </div>
+    <div id="uncompleted-tasks">
+   
+    </div>
+</div>
+  
+
+      <div class="imagebar"></div>
+    </div>
+    <footer id="footer">Copy Right 2022</footer>
+  </body>
+  <script src="./index.js"></script>
 </html>
