@@ -1,0 +1,160 @@
+:root {
+    --colorone: #03045e;
+    --colorTwo: #0077b6;
+    --colorThree: #00b4d8;
+    --colorFour: #90e0ef;
+    --colorFive: #caf0f8;
+    --colorSix: #ffffff;
+    --colorSeven: #111111;
+  }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* unique classes */
+
+.todo--navbar {
+    background-color: var(--colorone);
+    color: var(--colorSix);
+}
+
+.todo--input {
+    max-width: 50%;
+    width: 50%;
+    position: relative;
+    top: 2rem;
+    padding: 1rem ;
+}
+
+
+.todo--input--two {
+    outline: none;
+    border: none;
+    width: 90%;
+    border-bottom: 1px solid var(--colorSeven);
+    font-size: 1.5rem;
+}
+
+.todo--button {
+    width: 100px;
+    outline: none;
+    border: none;
+    background-color: var(--colorone);
+    color: var(--colorSix);
+}
+
+.todo--items {
+    max-width: 50%;
+    width: 50%;
+    position: relative;
+    top: 2rem;
+    padding: 1rem ;
+}
+
+.todo--item {
+    list-style: none;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.todo--item  > span {
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.delete--button {
+    background-color: rgba(222, 50, 50, 0.921);
+    color: var(--colorSix);
+    border: none;
+    outline: none;
+}
+/* end of unique classes */
+
+
+/* reusable classes */
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+/* justify content */
+.justify--center {
+    justify-content: center;
+}
+
+.justify--between {
+    justify-content: space-between;
+}
+
+.justify--evenly {
+    justify-content: space-evenly;
+}
+
+.justify--around {
+    justify-content: space-around;
+}
+
+/* align items  */
+
+.items-start {
+    align-items: flex-start;
+}   
+
+.items-center {
+    align-items: center;
+}
+
+.items-end {
+    align-items: flex-end;
+}
+
+/* gaps */
+.gap-small {
+    gap: 1rem;
+}
+
+.gap-medium {
+    gap: 2rem;
+}
+
+.gap-large {
+    gap: 3rem;
+}
+/* padding */
+
+.container {
+    max-width: 90%;
+}
+
+.p-small {
+    padding: 0.25rem 0.75rem;
+}
+
+.p-medium {
+    padding: 0.75rem 1rem;
+}
+
+.p-large {
+    padding: 1rem 1.25rem;
+}
+
+.p-extralarge {
+    padding: 1.25rem 1.5rem
+}
+
+/* margin */
+
+.mx-auto {
+    margin: 0 auto;
+}
